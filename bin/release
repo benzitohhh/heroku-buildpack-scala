@@ -6,7 +6,7 @@ BIN_DIR=$(cd $(dirname $0); pwd)
 BUILD_DIR=$1
 
 # Temp
-echo "*** Release"
+echo "*** Aistemos: Release";
 
 cat <<EOF
 ---
