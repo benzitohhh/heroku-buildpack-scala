@@ -5,6 +5,9 @@ BIN_DIR=$(cd $(dirname $0); pwd)
 . $BIN_DIR/common
 BUILD_DIR=$1
 
+# Temp
+echo "*** Release"
+
 cat <<EOF
 ---
 config_vars:
